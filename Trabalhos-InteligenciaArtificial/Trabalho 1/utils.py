@@ -22,11 +22,14 @@ def swap(entrada, i, j):
 def caminho(nodo):
 
     listaCaminho = []
+    #count = 0
     
     while nodo.pai is not None:
         listaCaminho.append(nodo.acao)
         nodo = nodo.pai
+        #count += nodo.custo
         
     listaCaminho.reverse()
+    #print(f'Custo solução => {count}\n\n')
 
     return listaCaminho
