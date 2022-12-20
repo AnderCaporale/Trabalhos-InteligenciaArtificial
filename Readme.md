@@ -11,22 +11,22 @@ Nós expandidos, tempo decorrido e custo da solução para cada algoritmo de bus
 
 BFS:
 Nós expandidos: 100788
-Custo: 1957259
+Custo solução: 253
 Tempo decorrido: 1.105248212814331s
 
 DFS:
 Nós expandidos: 154161
-Custo: 10607742437
+Custo solução: 5161330800
 Tempo decorrido: 1.5733532905578613s
 
 Hamming:
 Nós expandidos: 14083
-Custo: 207304
+Custo solução: 253
 Tempo decorrido: 0.21304702758789062s
 
 Manhattan:
 Nós expandidos: 1830
-Custo: 21002
+Custo solução: 253
 Tempo decorrido: 0.13503003120422363s
 
 Obs: Variáveis e prints definidos para contagem de nodos explorados, custo de busca e tempo de execução estão comentados
